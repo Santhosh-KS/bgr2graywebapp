@@ -1,3 +1,7 @@
+# Build Status
+![Build and deploy Python app to Azure Web App - bgr2gray](https://github.com/Santhosh-KS/bgr2graywebapp/workflows/Build%20and%20deploy%20Python%20app%20to%20Azure%20Web%20App%20-%20bgr2gray/badge.svg)
+
+
 # flask-bgr2gray
 
 This is a sample flask application that uses Bootstrap for the Frontend UI and PIL for image processing
@@ -10,11 +14,9 @@ gunicorn
 
 ## How to Use
 
-1. `python app_basic.py`
+1. `python app.py`
 
 2. Go to 127.0.0.1:4555 on your browser.
-
-3. `gunicorn --bind 0.0.0.0:5000 wsgi:app`
 
 ## Output
 
